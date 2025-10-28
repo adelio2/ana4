@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ñam ñam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="radio" name="menu" id="menu-normal-radio" class="menu-radio" checked>
+    <input type="radio" name="menu" id="menu-dietetico-radio" class="menu-radio">
+    <input type="radio" name="menu" id="menu-reparto-radio" class="menu-radio">
+    
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="https://i.ibb.co/QjtpVs0f/IMG-20251028-WA0003.jpg" alt="Logo ñam ñam" class="logo">
+                <div class="logo-text">
+                    <h1>ñam ñam</h1>
+                    <p class="slogan"></p>
+                </div>
+            </div>
+            
+            <div class="menu-toggle">
+                <label for="menu-normal-radio" class="menu-label">Menú Normal</label>
+                <label for="menu-dietetico-radio" class="menu-label">Menú Dietético</label>
+                <label for="menu-reparto-radio" class="menu-label">Repartos</label>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="menu-content" id="menu-normal-content">
+                <h2>Menú Normal</h2>
+                
+                <section class="menu-category">
+                    <h3>Postres Principales</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/hRwpMnJQ/postre-mango.jpg" alt="Postre de mango" class="menu-image">
+                            <h4>Postre de fresa con mora</h4>
+                            <span class="price">$12.99</span>
+                            <span class="badge sugar">Con azúcar</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/WWDScPVN/postre-limon.jpg" alt="Postre de limón" class="menu-image">
+                            <h4>Postre de Tiramisu</h4>
+                            <span class="price">$10.99</span>
+                            <span class="badge sugar">Con azúcar</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/4nV7psnh/postre-uva.jpg" alt="Postre de uva" class="menu-image">
+                            <h4>Postre de chocolate con churros</h4>
+                            <span class="price">$9.99</span>
+                            <span class="badge sugar">Con azúcar</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="menu-category">
+                    <h3>Postres Especiales</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/XfGVxFwB/cheesecake-fresa.jpg" alt="Cheesecake de fresa" class="menu-image">
+                            <h4>Crispy Chocolate Delight</h4>
+                            <span class="price">$100.99</span>
+                            <span class="badge high-sugar">Con azúcar</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="menu-content" id="menu-dietetico-content">
+                <h2>Menú Dietético</h2>
+                
+                <section class="menu-category">
+                    <h3>Postres Principales</h3>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/hRwpMnJQ/postre-mango.jpg" alt="Postre de fresa dietético" class="menu-image">
+                            <h4>Fresa con crema</h4>
+                            <span class="price">$21.99</span>
+                            <span class="badge no-sugar">Sin azúcar</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/WWDScPVN/postre-limon.jpg" alt="Postre de maracuyá dietético" class="menu-image">
+                            <h4>Postre Soufflé de Cacao Intenso</h4>
+                            <span class="price">$54.99</span>
+                            <span class="badge no-sugar">Sin azúcar</span>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://i.ibb.co/4nV7psnh/postre-uva.jpg" alt="Postre de chocolate dietético" class="menu-image">
+                            <h4>Postre Churros Chocolate Lovers</h4>
+                            <span class="price">$30.99</span>
+                            <span class="badge no-sugar">Sin azúcar</span>
+                        </div>
+                    </div>
+                </section>
+            </div> 
+
+            <div class="menu-content" id="menu-reparto-content">
+                <h2>Zonas de Reparto</h2>
+                
+                <section class="menu-category">
+                    <h3>Areas de Cobertura</h3>
+                    
+                    <div class="mapa-container">
+                        <div class="mapa-svg">
+                            <svg width="800" height="400" viewBox="0 0 800 400">
+                                <rect width="100%" height="100%" fill="#e8f5e8"/>
+                                <rect x="50" y="50" width="700" height="300" fill="white" stroke="#333" stroke-width="2"/>
+                                <text x="400" y="30" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Zonas de Reparto</text>
+                                <text x="80" y="80" font-family="Arial" font-size="14" fill="#333">Hospital San Pedro</text>
+                                <text x="80" y="110" font-family="Arial" font-size="14" fill="#333">Mariana</text>
+                                <text x="80" y="140" font-family="Arial" font-size="14" fill="#333">MARILUZ III</text>
+                                <text x="80" y="170" font-family="Arial" font-size="14" fill="#333">Unicentro Pasto</text>
+                                <text x="400" y="80" font-family="Arial" font-size="14" fill="#333">BR. EL BOSQUE</text>
+                                <text x="400" y="170" font-family="Arial" font-size="14" fill="#333">Plaza de Nariño</text>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="zonas-lista">
+                        <h4>Lugares de Reparto:</h4>
+                        <ul>
+                            <li>Hospital San Pedro</li>
+                            <li>Mariana</li>
+                            <li>MARILUZ III</li>
+                            <li>Centro Comercial Unicentro Pasto</li>
+                            <li>BR. EL BOSQUE</li>
+                            <li>Plaza de Nariño</li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
