@@ -1,0 +1,8 @@
+{
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Captura_55b6e57c",
+            "vmArgs": "--module-path \"C:/javafx-sdk-17.0.17/lib\" --add-modules javafx.controls,javafx.fxml"
+        },

@@ -1,0 +1,69 @@
+GUI		Interfaz de usuario grafica
+
+1	verificar la version de java
+
+	java --version
+
+
+2	descargar librerias
+
+		javafx
+
+3	descargar la libreria para la version 17
+
+4	copiar la carpeta en la raiz del c
+
+5	descargar el archivo scene builder para el ambiente grafico
+
+
+Configuracion
+
+1	crear un proyecto java	
+
+		shift + crtl + p
+
+2	java: create java project
+
+	no build tools
+	
+	buscamos la carpeta contenedora de los proyectos
+
+	nombre del projecto
+
+
+3	abrir el archivo App.java
+
+4	cargar las librerias
+
+	java project
+
+	referenced library
+
+5	configuracion del archivo json
+
+	run
+
+		adicionar configuracion
+
+		"vmArgs": "--module-path \"C:/javafx-sdk-17.0.17/lib\" --add-modules javafx.controls,javafx.fxml"
+
+6	crear un archivo Controlador.java
+
+7	crear el ambiente grafico
+
+	guardar el archivo en el src
+
+	pegamos el contenido del view en el Contenedor
+
+8	crear la codificacion del App.java
+
+
+
+
+
+
+
+
+
+
+
